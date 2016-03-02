@@ -975,8 +975,8 @@ parentViewController:(UIViewController*)parentViewController
     | UIViewAutoresizingFlexibleBottomMargin
     ;
 
-//    [overlayView addSubview: reticleView];
-    overlayView.maskView = reticleView;
+    [overlayView addSubview: reticleView];
+//    overlayView.maskView = reticleView;
 
     return overlayView;
 }
@@ -1019,7 +1019,7 @@ parentViewController:(UIViewController*)parentViewController
                                        RETICLE_SIZE-2*RETICLE_OFFSET
                                        )
                             );
-    CGContextSetFillColorWithColor(context, blackColor.CGColor);
+//    CGContextSetFillColorWithColor(context, blackColor.CGColor);
     // }
 
     result = UIGraphicsGetImageFromCurrentImageContext();
