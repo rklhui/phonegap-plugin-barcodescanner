@@ -905,7 +905,7 @@ parentViewController:(UIViewController*)parentViewController
     overlayView.autoresizesSubviews = YES;
     overlayView.autoresizingMask    = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     overlayView.opaque              = NO;
-    overlayView.backgroundColor = [UIColor colorWithWhite: 0.0 alpha: 0.5];
+    overlayView.backgroundColor = [UIColor colorWithWhite: 0.0 alpha: 0.2];
 
     UIToolbar* toolbar = [[UIToolbar alloc] init];
     toolbar.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
